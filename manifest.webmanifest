@@ -1,0 +1,17 @@
+{
+  "name": "Shopping4Ulist",
+  "short_name": "S4UL",
+  "description": "Shopping list as a Progressive Web App",
+  "scope": "/Shopping4Ulist/",
+  "start_url": "/Shopping4Ulist/",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "display": "standalone", 
+  "icons": [
+      {
+        "src": "/Shopping4Ulist/icon.png",
+        "type": "image/png",
+        "sizes": "50x50"
+      }
+  ]
+}

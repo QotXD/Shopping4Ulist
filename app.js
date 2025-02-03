@@ -30,8 +30,8 @@ function clearList() {
     const list = document.getElementById('shopping-list');
     list.innerHTML = '';
 }
-var GHPATH = '/github-page-pwa';
-var APP_PREFIX = 'gppwa_';
+var GHPATH = '/Shopping4Ulist';
+var APP_PREFIX = 's4ul_';
 var VERSION = 'version_00';
 var URLS = [    
     `${GHPATH}/`,
