@@ -10,6 +10,14 @@
     <link rel="manifest" href="/Shopping4Ulist/manifest.webmanifest">
 </head>
 <body>
+    <script>
+        if (navigator.serviceWorker) {
+          navigator.serviceWorker.register (
+            '/Shopping4Ulist/apps.js',
+            {scope: '/Shopping4Ulist/'}
+          )
+        }
+    </script>
     <div class="container">
         <h1>Shopping4U</h1>
         <p>Add to list</p>
@@ -20,14 +28,7 @@
         <ul id="shopping-list"></ul>
         <button onclick="clearList()" class="clear-btn">Clear All</button>
     </div>
-    <script>
-        if (navigator.serviceWorker) {
-          navigator.serviceWorker.register (
-            '/Shopping4Ulist/apps.js',
-            {scope: '/Shopping4Ulist/'}
-          )
-        }
-    </script>
+    
     <script src="app.js"></script>
 </body>
 </html>
