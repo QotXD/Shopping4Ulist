@@ -38,4 +38,5 @@ var URLS = [
     `${GHPATH}/index.html`,
     `${GHPATH}/styles.css`,
     `${GHPATH}/app.js`
+    `${GHPATH}/icon.png`
   ]
