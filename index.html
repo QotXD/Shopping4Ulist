@@ -10,14 +10,7 @@
     <link rel="manifest" href="/Shopping4Ulist/manifest.webmanifest">
 </head>
 <body>
-    <script>
-        if (navigator.serviceWorker) {
-          navigator.serviceWorker.register (
-            '/Shopping4Ulist/sw.js',
-            {scope: '/Shopping4Ulist/'}
-          )
-        }
-    </script>
+   
     <div class="container">
         <h1>Shopping4U</h1>
         <p>Add to list</p>
@@ -30,5 +23,13 @@
     </div>
     
     <script src="app.js"></script>
+    <script>
+        if (navigator.serviceWorker) {
+          navigator.serviceWorker.register (
+            '/Shopping4Ulist/sw.js',
+            {scope: '/Shopping4Ulist/'}
+          )
+        }
+    </script>
 </body>
 </html>
